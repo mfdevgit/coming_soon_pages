@@ -8,6 +8,7 @@ function App() {
         <div className='app'>
             <Navigation />
             <Routes>
+                <Route path='/' element={<First />} />
                 <Route path='/first' element={<First />} />
                 <Route path='/second' element={<Second />} />
             </Routes>
